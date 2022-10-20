@@ -1,0 +1,16 @@
+.odd{
+    background-color: palevioletred;
+    font-family: Verdana, DejaVu Sans, sans-serif;
+}
+#secondelement{
+    color: blue;
+    font-size: 36px;
+}
+.odd.cooler{
+    font-size: 24px;
+}
+#fourthelement{
+    background-color: greenyellow;
+    font-size: 24px;
+    font-weight: bold;
+}
