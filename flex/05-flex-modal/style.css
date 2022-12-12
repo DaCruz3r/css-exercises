@@ -15,11 +15,30 @@ body {
   justify-content: center;
 }
 
+.top-bar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header{
+  font-weight: bold;
+  font-size: large;
+  flex: 1;
+  margin-left: .5rem;
+}
+
+.text{
+  margin-left: 3rem;
+  margin-bottom: .5rem;
+}
+
 .modal {
   background: white;
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  padding: 1rem;
 }
 
 .icon {
@@ -51,6 +70,10 @@ body {
 button {
   padding: 8px 16px;
   border-radius: 8px;
+}
+
+.buttons-bottom{
+  margin-left: 3rem;
 }
 
 button.continue {
