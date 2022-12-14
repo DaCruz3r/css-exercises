@@ -12,7 +12,7 @@ body {
   height: 72px;
   background: darkmagenta;
   color: white;
-  font-weight: bold;
+  font-weight: 900;
   font-size: 2rem;
   display: flex;
   align-items: center;
@@ -34,6 +34,9 @@ body {
   height: auto;
   background: royalblue;
   display: flex;
+  flex-shrink: 0;
+  padding: 1rem;
+  box-sizing: border-box;
 }
 
 ul{
@@ -48,10 +51,12 @@ li{
 a{
   color: white;
   text-decoration: none;
+  font-size: 1.2rem;
 }
 
 .content{
   display: flex;
+  flex: 1;
 }
 
 .cards-container{
@@ -65,7 +70,8 @@ a{
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 6px;
-  padding: 1rem;
+  padding: 2rem;
   height: 18rem;
-  width: 18rem;
+  width: 20rem;
+  margin: 1rem;
 }
